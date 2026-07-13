@@ -1,0 +1,642 @@
+/**
+ *  If you want to override some bootstrap variables, you have to change values here.
+ *  The list of variables are listed here bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
+ */
+/**
+ *  Do not remove the comments below. It's the markers used by wiredep to inject
+ *  sass dependencies when defined in the bower.json of your dependencies
+ */
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.thumbnail {
+  height: 200px;
+}
+.thumbnail img.pull-right {
+  width: 50px;
+}
+
+/**
+ *  Do not remove the comments below. It's the markers used by gulp-inject to inject
+ *  all your sass files automatically
+ */
+.wFull {
+  width: 100%;
+}
+
+.w100 {
+  width: 100px;
+}
+
+.w150 {
+  width: 150px;
+}
+
+.w200 {
+  width: 200px;
+}
+
+.w250 {
+  width: 250px;
+}
+
+.w300 {
+  width: 300px;
+}
+
+.w350 {
+  width: 350px;
+}
+
+.w400 {
+  width: 400px;
+}
+
+.w450 {
+  width: 450px;
+}
+
+.w500 {
+  width: 500px;
+}
+
+.h100 {
+  height: 100px;
+}
+
+.h150 {
+  height: 150px;
+}
+
+.h200 {
+  height: 200px;
+}
+
+.h250 {
+  height: 250px;
+}
+
+.h300 {
+  height: 300px;
+}
+
+.h350 {
+  height: 350px;
+}
+
+.h400 {
+  height: 400px;
+}
+
+.h450 {
+  height: 450px;
+}
+
+.h500 {
+  height: 500px;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.lt {
+  left: 0;
+}
+
+.rt {
+  right: 0;
+}
+
+.bt {
+  bottom: 0;
+}
+
+.tp {
+  top: 0;
+}
+
+.m30 {
+  margin: 30px;
+}
+
+.mr30 {
+  margin-right: 30px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.ml30 {
+  margin-left: 30px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.m25 {
+  margin: 25px;
+}
+
+.mr25 {
+  margin-right: 25px;
+}
+
+.mb25 {
+  margin-bottom: 25px;
+}
+
+.ml25 {
+  margin-left: 25px;
+}
+
+.mt25 {
+  margin-top: 25px;
+}
+
+.m20 {
+  margin: 20px;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.ml20 {
+  margin-left: 20px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.m15 {
+  margin: 15px;
+}
+
+.mr15 {
+  margin-right: 15px;
+}
+
+.mb15 {
+  margin-bottom: 15px;
+}
+
+.ml15 {
+  margin-left: 15px;
+}
+
+.mt15 {
+  margin-top: 15px;
+}
+
+.m10 {
+  margin: 10px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.m5 {
+  margin: 5px;
+}
+
+.mr5 {
+  margin-right: 5px;
+}
+
+.mb5 {
+  margin-bottom: 5px;
+}
+
+.ml5 {
+  margin-left: 5px;
+}
+
+.mt5 {
+  margin-top: 5px;
+}
+
+.m2 {
+  margin: 2px;
+}
+
+.mr2 {
+  margin-right: 2px;
+}
+
+.mb2 {
+  margin-bottom: 2px;
+}
+
+.ml2 {
+  margin-left: 2px;
+}
+
+.mt2 {
+  margin-top: 2px;
+}
+
+.m0 {
+  margin: 0px;
+}
+
+.mr0 {
+  margin-right: 0px;
+}
+
+.mb0 {
+  margin-bottom: 0px;
+}
+
+.ml0 {
+  margin-left: 0px;
+}
+
+.mt0 {
+  margin-top: 0px;
+}
+
+.p30 {
+  padding: 30px;
+}
+
+.pr30 {
+  padding-right: 30px;
+}
+
+.pb30 {
+  padding-bottop: 30px;
+}
+
+.pl30 {
+  padding-left: 30px;
+}
+
+.pt30 {
+  padding-top: 30px;
+}
+
+.p25 {
+  padding: 25px;
+}
+
+.pr25 {
+  padding-right: 25px;
+}
+
+.pb25 {
+  padding-bottop: 25px;
+}
+
+.pl25 {
+  padding-left: 25px;
+}
+
+.pt25 {
+  padding-top: 25px;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+.pr20 {
+  padding-right: 20px;
+}
+
+.pb20 {
+  padding-bottop: 20px;
+}
+
+.pl20 {
+  padding-left: 20px;
+}
+
+.pt20 {
+  padding-top: 20px;
+}
+
+.p15 {
+  padding: 15px;
+}
+
+.pr15 {
+  padding-right: 15px;
+}
+
+.pb15 {
+  padding-bottop: 15px;
+}
+
+.pl15 {
+  padding-left: 15px;
+}
+
+.pt15 {
+  padding-top: 15px;
+}
+
+.p10 {
+  padding: 10px;
+}
+
+.pr10 {
+  padding-right: 10px;
+}
+
+.pb10 {
+  padding-bottop: 10px;
+}
+
+.pl10 {
+  padding-left: 10px;
+}
+
+.pt10 {
+  padding-top: 10px;
+}
+
+.p5 {
+  padding: 5px;
+}
+
+.pr5 {
+  padding-right: 5px;
+}
+
+.pb5 {
+  padding-bottop: 5px;
+}
+
+.pl5 {
+  padding-left: 5px;
+}
+
+.pt5 {
+  padding-top: 5px;
+}
+
+.p2 {
+  padding: 2px;
+}
+
+.pr2 {
+  padding-right: 2px;
+}
+
+.pb2 {
+  padding-bottop: 2px;
+}
+
+.pl2 {
+  padding-left: 2px;
+}
+
+.pt2 {
+  padding-top: 2px;
+}
+
+.p0 {
+  padding: 0px;
+}
+
+.pr0 {
+  padding-right: 0px;
+}
+
+.pb0 {
+  padding-bottop: 0px;
+}
+
+.pl0 {
+  padding-left: 0px;
+}
+
+.pt0 {
+  padding-top: 0px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-wrap {
+  padding-top: 150px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+header img.avatar {
+  display: inline-block;
+  position: fixed;
+  left: 50%;
+  margin-left: -100px;
+  border-radius: 50%;
+  height: 200px;
+  margin-top: 30px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #0683c9;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  -ms-transition: height 0.3s;
+  -o-transition: height 0.3s;
+  transition: height 0.3s;
+}
+
+header h1#logo {
+  display: inline-block;
+  height: 150px;
+  line-height: 150px;
+  float: left;
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+  color: white;
+  font-weight: 400;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+header nav.right a {
+  margin-top: 30px;
+  display: inline-block;
+  float: right;
+  margin-left: 50px;
+}
+
+header nav.left a {
+  margin-top: 30px;
+  display: inline-block;
+  float: left;
+  margin-right: 50px;
+}
+
+header nav a {
+  text-decoration: none;
+  line-height: 150px;
+  color: #9fdbfc;
+  font-weight: 700;
+  font-size: 40px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+header.smaller nav a {
+  margin-top: 0px;
+}
+
+header nav a:hover {
+  color: white !important;
+}
+
+header nav a:link, header nav a:visited, header nav a:hover, header nav a:active {
+  text-decoration: none;
+  color: #9fdbfc;
+}
+
+header.smaller {
+  height: 75px;
+}
+
+header.smaller h1#logo {
+  width: 150px;
+  height: 75px;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+header.smaller nav a {
+  line-height: 75px;
+  font-size: 30px;
+}
+
+header.smaller img.avatar {
+  height: 80px;
+  margin-top: 10px;
+  margin-left: -40px;
+}
+
+@media all and (max-width: 660px) {
+  header img.avatar {
+    height: 80px;
+  }
+  header h1#logo {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+  }
+  header nav {
+    display: block;
+    float: none;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  header nav a {
+    line-height: 50px;
+    margin: 0 10px;
+    font-size: 15px;
+  }
+  header.smaller {
+    height: 75px;
+  }
+  header.smaller h1#logo {
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+  }
+  header.smaller nav {
+    height: 35px;
+  }
+  header.smaller nav a {
+    line-height: 35px;
+  }
+}
+.contact-wrapper {
+  background: url("/assets/images/background.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 675px;
+  color: white;
+  text-align: center;
+}
+
+.links {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.credits-of-photo {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 800px;
+}
+
+.icons {
+  margin-left: 25px;
+  margin-right: 25px;
+  background: transparent;
+}
+
+.footer {
+  background-color: #003459;
+  min-height: 500px;
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.working-on {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 50px;
+}

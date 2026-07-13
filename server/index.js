@@ -17,7 +17,7 @@ app.use(express.static(path.join(config.root, '/client/src')))
 app.route('/*')
   .get(function(req, res) {
     console.log('new Request!')
-    return res.sendFile(path.resolve(config.root, 'client/dist/index.html'));
+    return res.sendFile(path.resolve(config.root, 'client/src/index.html'));
   });
 
 app.use(morgan('dev'));

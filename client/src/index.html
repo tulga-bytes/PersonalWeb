@@ -10,17 +10,12 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- run `gulp inject` to automatically populate bower styles dependencies -->
-    <!-- endbower -->
-    <!-- endbuild -->
+    <!-- vendor styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-toastr/1.7.0/angular-toastr.min.css">
 
-    <!-- build:css({.tmp/serve,src}) styles/app.css -->
-    <!-- inject:css -->
-    <!-- css files will be automatically insert here -->
-    <!-- endinject -->
-    <!-- endbuild -->
+    <!-- app styles -->
+    <link rel="stylesheet" href="styles/app.css">
   </head>
   <body>
     <!--[if lt IE 10]>
@@ -29,21 +24,30 @@
 
     <div ui-view></div>
 
-    <!-- build:js(src) scripts/vendor.js -->
-    <!-- bower:js -->
-    <!-- run `gulp inject` to automatically populate bower script dependencies -->
-    <!-- endbower -->
-    <!-- endbuild -->
+    <!-- vendor scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular-animate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular-cookies.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular-touch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular-sanitize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular-messages.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular-aria.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular-resource.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.3/ui-bootstrap-tpls.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-toastr/1.7.0/angular-toastr.tpls.min.js"></script>
 
-    <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
-    <!-- inject:js -->
-    <!-- js files will be automatically insert here -->
-    <!-- endinject -->
-
-    <!-- inject:partials -->
-    <!-- angular templates will be automatically converted in js and inserted here -->
-    <!-- endinject -->
-    <!-- endbuild -->
+    <!-- app scripts -->
+    <script src="app/index.module.js"></script>
+    <script src="app/index.config.js"></script>
+    <script src="app/index.constants.js"></script>
+    <script src="app/index.route.js"></script>
+    <script src="app/index.run.js"></script>
+    <script src="app/main/main.controller.js"></script>
+    <script src="app/components/head/head.directive.js"></script>
+    <script src="app/components/contact/contact.directive.js"></script>
+    <script src="app/components/footer/footer.directive.js"></script>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.min.js'></script>
     <script>

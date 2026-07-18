@@ -9,7 +9,7 @@
   function footer() {
     var directive = {
       restrict: 'E',
-      templateUrl: 'app/components/footer/footer.html'
+      templateUrl: '/app/components/footer/footer.html'
     };
 
     return directive;

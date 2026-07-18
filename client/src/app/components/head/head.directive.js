@@ -9,7 +9,7 @@
   function headerino() {
     var directive = {
       restrict: 'E',
-      templateUrl: 'app/components/head/head.html'
+      templateUrl: '/app/components/head/head.html'
     };
 
     return directive;

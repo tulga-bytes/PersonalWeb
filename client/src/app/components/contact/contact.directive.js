@@ -9,7 +9,7 @@
   function contact() {
     var directive = {
       restrict: 'E',
-      templateUrl: 'app/components/contact/contact.html'
+      templateUrl: '/app/components/contact/contact.html'
     };
 
     return directive;
